@@ -8,7 +8,7 @@ int main(int argc, char* argv[]){
 
     std::vector<int> primes;
 
-    for(int i = 0; i < int(argv[1]); i++){
+    for(int i = 0; i < 1000; i++){
         if(isprime(i)){
             primes.push_back(i);
         }
